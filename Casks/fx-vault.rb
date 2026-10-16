@@ -1,6 +1,6 @@
 cask "fx-vault" do
-  version "0.6.0"
-  sha256 "520760782c3b7ae831de3842a4e7e58d749c9147eb85f1a0669e1f8fef6ee44e"
+  version "0.7.0"
+  sha256 "a08b8c8d5c0b4b70cdbc618ab8ddbb85f8443844c6623a183dcb873c8045ce1a"
 
   url "https://github.com/FractalX-Technologies/fx-vault/releases/download/v#{version}/FXVault-#{version}.dmg"
   name "FX Vault"
