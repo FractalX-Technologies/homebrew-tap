@@ -1,6 +1,6 @@
 cask "fx-vault" do
-  version "0.9.0"
-  sha256 "c798b1ef990d6bc8e65a9dd48f8d51c9d24e20b58da4695da14ec0f7ee6d3c38"
+  version "1.0.0"
+  sha256 "3c656551615609f545711ec5cb1dd640a2d15504600941fe339dde169521d4c5"
 
   url "https://github.com/FractalX-Technologies/fx-vault/releases/download/v#{version}/FXVault-#{version}.dmg"
   name "FX Vault"
@@ -13,7 +13,7 @@ cask "fx-vault" do
   end
 
   depends_on formula: "gh"
-  depends_on macos: :sonoma
+  depends_on macos: :tahoe
 
   app "FX Vault.app"
 
